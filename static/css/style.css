@@ -1,0 +1,101 @@
+.task-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-card.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+}
+
+.reminder-controls {
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.reminder-controls.active {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pause-button,
+.stop-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.pause-button {
+  background-color: #f59e0b;
+}
+
+.pause-button:hover {
+  background-color: #d97706;
+}
+
+.stop-button {
+  background-color: #ef4444;
+}
+
+.stop-button:hover {
+  background-color: #dc2626;
+}
+
+#analysis-result {
+  color: #333;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .task-card {
+    padding: 0.5rem;
+  }
+
+  select,
+  input,
+  textarea,
+  button {
+    font-size: 0.9rem;
+  }
+
+  #analysis-result p {
+    font-size: 0.85rem;
+  }
+
+  .reminder-controls.active {
+    flex-direction: column;
+  }
+
+  .pause-button,
+  .stop-button {
+    width: 100%;
+    text-align: center;
+  }
+}

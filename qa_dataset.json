@@ -1,0 +1,766 @@
+[
+  {
+    "question": "What is HTML?",
+    "context": "HTML stands for HyperText Markup Language. It is used to structure content on the web.",
+    "answer": "HTML is HyperText Markup Language, used to structure web content."
+  },
+  {
+    "question": "How does CSS work?",
+    "context": "CSS (Cascading Style Sheets) is used to style HTML elements. It defines layouts, colors, and fonts.",
+    "answer": "CSS styles HTML elements by defining layouts, colors, and fonts."
+  },
+    {
+        "question": "What is the definition of a derivative in calculus?",
+        "context": "In calculus, a derivative represents the rate of change of a function with respect to a variable. It is defined as the limit of the difference quotient as the interval approaches zero.",
+        "answer": "A derivative in calculus is the rate of change of a function with respect to a variable, defined as the limit of the difference quotient as the interval approaches zero. See page 12.",
+        "page": 12
+    },
+    {
+        "question": "How does photosynthesis work?",
+        "context": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen using sunlight. This occurs in the chloroplasts, where chlorophyll absorbs light energy.",
+        "answer": "Photosynthesis converts carbon dioxide and water into glucose and oxygen using sunlight, occurring in chloroplasts with chlorophyll absorbing light energy. See page 45.",
+        "page": 45
+    },
+    {
+        "question": "What are Newton's laws of motion?",
+        "context": "Newton's first law states that an object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force. The second law is F=ma. The third law states that for every action, there is an equal and opposite reaction.",
+        "answer": "Newton's first law is about inertia, the second law is F=ma, and the third law states equal and opposite reactions. See page 78.",
+        "page": 78
+    },
+    {
+        "question": "What is the capital of France?",
+        "context": "France is a country in Western Europe. Its capital city is Paris, known for landmarks like the Eiffel Tower.",
+        "answer": "The capital of France is Paris. See page 101.",
+        "page": 101
+    },
+    {
+        "question": "Explain the structure of DNA.",
+        "context": "DNA, or deoxyribonucleic acid, is a double helix structure composed of nucleotides. Each nucleotide contains a sugar, a phosphate group, and one of four bases: adenine, thymine, cytosine, or guanine.",
+        "answer": "DNA is a double helix made of nucleotides with a sugar, phosphate, and one of four bases: adenine, thymine, cytosine, or guanine. See page 23.",
+        "page": 23
+    },
+    {
+        "question": "What is the Pythagorean theorem?",
+        "context": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c².",
+        "answer": "The Pythagorean theorem is a² + b² = c² for right-angled triangles. See page 56.",
+        "page": 56
+    },
+    {
+        "question": "What causes inflation in economics?",
+        "context": "Inflation is the rate at which the general level of prices for goods and services increases. It can be caused by increased demand, higher production costs, or monetary policy changes.",
+        "answer": "Inflation is caused by increased demand, higher production costs, or monetary policy changes. See page 89.",
+        "page": 89
+    },
+    {
+        "question": "What is the role of mitochondria in cells?",
+        "context": "Mitochondria are organelles that produce energy for the cell through cellular respiration, generating ATP.",
+        "answer": "Mitochondria produce energy via cellular respiration, generating ATP. See page 34.",
+        "page": 34
+    },
+    {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "context": "Pride and Prejudice is a novel by Jane Austen, published in 1813, exploring themes of love and social class.",
+        "answer": "Jane Austen wrote 'Pride and Prejudice'. See page 112.",
+        "page": 112
+    },
+    {
+        "question": "What is the greenhouse effect?",
+        "context": "The greenhouse effect is the trapping of heat in Earth's atmosphere by gases like carbon dioxide, leading to global warming.",
+        "answer": "The greenhouse effect traps heat in Earth's atmosphere via gases like carbon dioxide, causing global warming. See page 67.",
+        "page": 67
+    },
+    {
+        "question": "What is the formula for calculating kinetic energy?",
+        "context": "Kinetic energy is given by the formula KE = ½mv², where m is mass and v is velocity.",
+        "answer": "Kinetic energy is calculated as KE = ½mv². See page 90.",
+        "page": 90
+    },
+    {
+        "question": "What is the primary source of energy for Earth's climate system?",
+        "context": "The Sun is the primary source of energy for Earth's climate system, driving weather and climate patterns.",
+        "answer": "The Sun is the primary energy source for Earth's climate system. See page 15.",
+        "page": 15
+    },
+    {
+        "question": "What is the significance of the Magna Carta?",
+        "context": "The Magna Carta, signed in 1215, limited the power of the English monarchy and established legal principles.",
+        "answer": "The Magna Carta limited royal power and established legal principles in 1215. See page 134.",
+        "page": 134
+    },
+    {
+        "question": "What is an ecosystem?",
+        "context": "An ecosystem is a community of living organisms interacting with their physical environment.",
+        "answer": "An ecosystem is a community of organisms interacting with their environment. See page 49.",
+        "page": 49
+    },
+    {
+        "question": "What is the function of the pancreas?",
+        "context": "The pancreas produces insulin and digestive enzymes, regulating blood sugar and aiding digestion.",
+        "answer": "The pancreas regulates blood sugar with insulin and aids digestion with enzymes. See page 28.",
+        "page": 28
+    },
+    {
+        "question": "What is the theory of relativity?",
+        "context": "Einstein's theory of relativity includes special and general relativity, addressing space, time, and gravity.",
+        "answer": "Einstein's relativity theory addresses space, time, and gravity in special and general forms. See page 102.",
+        "page": 102
+    },
+    {
+        "question": "What is the periodic table?",
+        "context": "The periodic table organizes chemical elements by atomic number, electron configuration, and properties.",
+        "answer": "The periodic table organizes elements by atomic number and properties. See page 76.",
+        "page": 76
+    },
+    {
+        "question": "What is the main cause of the seasons?",
+        "context": "The tilt of Earth's axis causes seasonal variations by altering the angle of sunlight received.",
+        "answer": "Earth's axis tilt causes seasons by changing sunlight angles. See page 62.",
+        "page": 62
+    },
+    {
+        "question": "Who discovered electricity?",
+        "context": "While electricity was studied by many, Michael Faraday's work on electromagnetic induction was pivotal.",
+        "answer": "Michael Faraday's work on electromagnetic induction was key to understanding electricity. See page 88.",
+        "page": 88
+    },
+    {
+        "question": "What is a polynomial?",
+        "context": "A polynomial is a mathematical expression consisting of variables and coefficients, combined using addition, subtraction, and multiplication.",
+        "answer": "A polynomial is an expression of variables and coefficients using addition, subtraction, and multiplication. See page 41.",
+        "page": 41
+    },
+    {
+        "question": "What is the role of the United Nations?",
+        "context": "The United Nations promotes international cooperation, peace, and security among nations.",
+        "answer": "The United Nations promotes peace, security, and international cooperation. See page 120.",
+        "page": 120
+    },
+    {
+        "question": "What is the structure of an atom?",
+        "context": "An atom consists of a nucleus with protons and neutrons, surrounded by electrons in orbitals.",
+        "answer": "An atom has a nucleus of protons and neutrons, with electrons in orbitals. See page 19.",
+        "page": 19
+    },
+    {
+        "question": "What is the water cycle?",
+        "context": "The water cycle involves evaporation, condensation, precipitation, and collection of water on Earth.",
+        "answer": "The water cycle includes evaporation, condensation, precipitation, and collection. See page 53.",
+        "page": 53
+    },
+    {
+        "question": "What is the function of the heart?",
+        "context": "The heart pumps blood throughout the body, delivering oxygen and nutrients.",
+        "answer": "The heart pumps blood to deliver oxygen and nutrients. See page 30.",
+        "page": 30
+    },
+    {
+        "question": "What is the Doppler effect?",
+        "context": "The Doppler effect is the change in frequency of a wave in relation to an observer moving relative to the wave source.",
+        "answer": "The Doppler effect is the frequency change of a wave due to relative motion. See page 95.",
+        "page": 95
+    },
+    {
+        "question": "What is the significance of the Declaration of Independence?",
+        "context": "The Declaration of Independence, adopted in 1776, announced the American colonies' separation from Britain.",
+        "answer": "The Declaration of Independence announced American separation from Britain in 1776. See page 140.",
+        "page": 140
+    },
+    {
+        "question": "What is a catalyst in chemistry?",
+        "context": "A catalyst is a substance that increases the rate of a chemical reaction without being consumed.",
+        "answer": "A catalyst speeds up a chemical reaction without being consumed. See page 71.",
+        "page": 71
+    },
+    {
+        "question": "What is the role of chlorophyll in plants?",
+        "context": "Chlorophyll absorbs sunlight, enabling photosynthesis in plants.",
+        "answer": "Chlorophyll absorbs sunlight for photosynthesis in plants. See page 47.",
+        "page": 47
+    },
+    {
+        "question": "What is the law of conservation of mass?",
+        "context": "The law of conservation of mass states that mass is neither created nor destroyed in a chemical reaction.",
+        "answer": "Mass is neither created nor destroyed in a chemical reaction, per the law of conservation of mass. See page 80.",
+        "page": 80
+    },
+    {
+        "question": "What is the main function of the kidneys?",
+        "context": "The kidneys filter blood to remove waste and regulate fluid balance.",
+        "answer": "The kidneys filter blood to remove waste and regulate fluids. See page 32.",
+        "page": 32
+    },
+    {
+        "question": "What is the significance of the Industrial Revolution?",
+        "context": "The Industrial Revolution transformed economies from agrarian to industrial through technological advancements.",
+        "answer": "The Industrial Revolution shifted economies to industrial through technology. See page 125.",
+        "page": 125
+    },
+    {
+        "question": "What is a quadratic equation?",
+        "context": "A quadratic equation is a polynomial equation of the form ax² + bx + c = 0.",
+        "answer": "A quadratic equation is ax² + bx + c = 0. See page 43.",
+        "page": 43
+    },
+    {
+        "question": "What is the purpose of the ozone layer?",
+        "context": "The ozone layer absorbs harmful ultraviolet radiation from the sun, protecting life on Earth.",
+        "answer": "The ozone layer absorbs UV radiation to protect life. See page 65.",
+        "page": 65
+    },
+    {
+        "question": "What is the definition of velocity?",
+        "context": "Velocity is a vector quantity describing the rate of change of an object's position, including direction.",
+        "answer": "Velocity is the rate of change of position with direction. See page 93.",
+        "page": 0
+    },
+    {
+        "question": "What is the author of '1984'?",
+        "context": "1984 is a dystopian novel by George Orwell, published in 1949.",
+        "answer": "George Orwell wrote '1984'. See page 115.",
+        "page": 115
+    },
+    {
+        "question": "What is the process of cell division called?",
+        "context": "Cell division in eukaryotes is called mitosis, where one cell divides into two identical cells.",
+        "answer": "Cell division is called mitosis. See page 25.",
+        "page": 25
+    },
+    {
+        "question": "What is the main component of Earth's atmosphere?",
+        "context": "Nitrogen makes up about 78% of Earth's atmosphere.",
+        "answer": "Nitrogen is the main component, about 78% of Earth's atmosphere. See page 60.",
+        "page": 60
+    },
+    {
+        "question": "What is the definition of a limit in calculus?",
+        "context": "A limit in calculus is the value a function approaches as the input approaches a specified point.",
+        "answer": "A limit is the value a function approaches at a specified point. See page 14.",
+        "page": 14
+    },
+    {
+        "question": "What is the significance of the Treaty of Westphalia?",
+        "context": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and established modern state sovereignty.",
+        "answer": "The Treaty of Westphalia ended the Thirty Years' War and defined state sovereignty in 1648. See page 138.",
+        "page": 138
+    },
+    {
+        "question": "What is the primary function of ribosomes?",
+        "context": "Ribosomes synthesize proteins by translating mRNA into polypeptide chains.",
+        "answer": "Ribosomes synthesize proteins from mRNA. See page 37.",
+        "page": 37
+    },
+   
+    {
+        "question": "What is the role of enzymes in biochemical reactions?",
+        "context": "Enzymes are proteins that act as catalysts to speed up biochemical reactions without being consumed.",
+        "answer": "Enzymes are protein catalysts that accelerate biochemical reactions. See page 51.",
+        "page": 51
+    },
+    {
+        "question": "What is the definition of democracy?",
+        "context": "Democracy is a system of government where power is vested in the people, typically through elected representatives.",
+        "answer": "Democracy is a government system where people hold power via elected representatives. See page 118.",
+        "page": 118
+    },
+    {
+        "question": "What is the function of the thyroid gland?",
+        "context": "The thyroid gland produces hormones that regulate metabolism, growth, and development.",
+        "answer": "The thyroid produces hormones for metabolism, growth, and development. See page 27.",
+        "page": 27
+    },
+    {
+        "question": "What is the definition of a derivative in calculus?",
+        "context": "In calculus, a derivative represents the rate of change of a function with respect to a variable. It is defined as the limit of the difference quotient as the interval approaches zero.",
+        "answer": "A derivative in calculus is the rate of change of a function with respect to a variable, defined as the limit of the difference quotient as the interval approaches zero.",
+        "page": 12
+    },
+    {
+        "question": "How does photosynthesis work?",
+        "context": "Photosynthesis is the process by which green plants convert carbon dioxide and water into glucose and oxygen using sunlight. This occurs in the chloroplasts, where chlorophyll absorbs light energy.",
+        "answer": "Photosynthesis converts carbon dioxide and water into glucose and oxygen using sunlight, occurring in chloroplasts with chlorophyll absorbing light energy.",
+        "page": 45
+    },
+    {
+        "question": "What are Newton's laws of motion?",
+        "context": "Newton's first law states that an object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force. The second law is F=ma. The third law states that for every action, there is an equal and opposite reaction.",
+        "answer": "Newton's first law is about inertia, the second law is F=ma, and the third law states equal and opposite reactions.",
+        "page": 78
+    },
+    {
+        "question": "What is the capital of France?",
+        "context": "France is a country in Western Europe. Its capital city is Paris, known for landmarks like the Eiffel Tower.",
+        "answer": "The capital of France is Paris.",
+        "page": 101
+    },
+    {
+        "question": "Explain the structure of DNA.",
+        "context": "DNA, or deoxyribonucleic acid, is a double helix structure composed of nucleotides. Each nucleotide contains a sugar, a phosphate group, and one of four bases: adenine, thymine, cytosine, or guanine.",
+        "answer": "DNA is a double helix made of nucleotides with a sugar, phosphate, and one of four bases: adenine, thymine, cytosine, or guanine.",
+        "page": 23
+    },
+    {
+        "question": "What is the Pythagorean theorem?",
+        "context": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c².",
+        "answer": "The Pythagorean theorem is a² + b² = c² for right-angled triangles.",
+        "page": 56
+    },
+    {
+        "question": "What causes inflation in economics?",
+        "context": "Inflation is the rate at which the general level of prices for goods and services increases. It can be caused by increased demand, higher production costs, or monetary policy changes.",
+        "answer": "Inflation is caused by increased demand, higher production costs, or monetary policy changes.",
+        "page": 89
+    },
+    {
+        "question": "What is the role of mitochondria in cells?",
+        "context": "Mitochondria are organelles that produce energy for the cell through cellular respiration, generating ATP.",
+        "answer": "Mitochondria produce energy via cellular respiration, generating ATP.",
+        "page": 34
+    },
+    {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "context": "Pride and Prejudice is a novel by Jane Austen, published in 1813, exploring themes of love and social class.",
+        "answer": "Jane Austen wrote 'Pride and Prejudice'.",
+        "page": 112
+    },
+    {
+        "question": "What is the greenhouse effect?",
+        "context": "The greenhouse effect is the trapping of heat in Earth's atmosphere by gases like carbon dioxide, leading to global warming.",
+        "answer": "The greenhouse effect traps heat in Earth's atmosphere via gases like carbon dioxide, causing global warming.",
+        "page": 67
+    },
+    {
+        "question": "What is the formula for calculating kinetic energy?",
+        "context": "Kinetic energy is given by the formula KE = ½mv², where m is mass and v is velocity.",
+        "answer": "Kinetic energy is calculated as KE = ½mv².",
+        "page": 90
+    },
+    {
+        "question": "What is the primary source of energy for Earth's climate system?",
+        "context": "The Sun is the primary source of energy for Earth's climate system, driving weather and climate patterns.",
+        "answer": "The Sun is the primary energy source for Earth's climate system.",
+        "page": 15
+    },
+    {
+        "question": "What is the significance of the Magna Carta?",
+        "context": "The Magna Carta, signed in 1215, limited the power of the English monarchy and established legal principles.",
+        "answer": "The Magna Carta limited royal power and established legal principles in 1215.",
+        "page": 134
+    },
+    {
+        "question": "What is an ecosystem?",
+        "context": "An ecosystem is a community of living organisms interacting with their physical environment.",
+        "answer": "An ecosystem is a community of organisms interacting with their environment.",
+        "page": 49
+    },
+    {
+        "question": "What is the function of the pancreas?",
+        "context": "The pancreas produces insulin and digestive enzymes, regulating blood sugar and aiding digestion.",
+        "answer": "The pancreas regulates blood sugar with insulin and aids digestion with enzymes.",
+        "page": 28
+    },
+    {
+        "question": "What is the theory of relativity?",
+        "context": "Einstein's theory of relativity includes special and general relativity, addressing space, time, and gravity.",
+        "answer": "Einstein's relativity theory addresses space, time, and gravity in special and general forms.",
+        "page": 102
+    },
+    {
+        "question": "What is the periodic table?",
+        "context": "The periodic table organizes chemical elements by atomic number, electron configuration, and properties.",
+        "answer": "The periodic table organizes elements by atomic number and properties.",
+        "page": 76
+    },
+    {
+        "question": "What is the main cause of the seasons?",
+        "context": "The tilt of Earth's axis causes seasonal variations by altering the angle of sunlight received.",
+        "answer": "Earth's axis tilt causes seasons by changing sunlight angles.",
+        "page": 62
+    },
+    {
+        "question": "Who discovered electricity?",
+        "context": "While electricity was studied by many, Michael Faraday's work on electromagnetic induction was pivotal.",
+        "answer": "Michael Faraday's work on electromagnetic induction was key to understanding electricity.",
+        "page": 88
+    },
+    {
+        "question": "What is a polynomial?",
+        "context": "A polynomial is a mathematical expression consisting of variables and coefficients, combined using addition, subtraction, and multiplication.",
+        "answer": "A polynomial is an expression of variables and coefficients using addition, subtraction, and multiplication.",
+        "page": 41
+    },
+    {
+        "question": "What is the role of the United Nations?",
+        "context": "The United Nations promotes international cooperation, peace, and security among nations.",
+        "answer": "The United Nations promotes peace, security, and international cooperation.",
+        "page": 120
+    },
+    {
+        "question": "What is the structure of an atom?",
+        "context": "An atom consists of a nucleus with protons and neutrons, surrounded by electrons in orbitals.",
+        "answer": "An atom has a nucleus of protons and neutrons, with electrons in orbitals.",
+        "page": 19
+    },
+    {
+        "question": "What is the water cycle?",
+        "context": "The water cycle involves evaporation, condensation, precipitation, and collection of water on Earth.",
+        "answer": "The water cycle includes evaporation, condensation, precipitation, and collection.",
+        "page": 53
+    },
+    {
+        "question": "What is the function of the heart?",
+        "context": "The heart pumps blood throughout the body, delivering oxygen and nutrients.",
+        "answer": "The heart pumps blood to deliver oxygen and nutrients.",
+        "page": 30
+    },
+    {
+        "question": "What is the Doppler effect?",
+        "context": "The Doppler effect is the change in frequency of a wave in relation to an observer moving relative to the wave source.",
+        "answer": "The Doppler effect is the frequency change of a wave due to relative motion.",
+        "page": 95
+    },
+    {
+        "question": "What is the significance of the Declaration of Independence?",
+        "context": "The Declaration of Independence, adopted in 1776, announced the American colonies' separation from Britain.",
+        "answer": "The Declaration of Independence announced American separation from Britain in 1776.",
+        "page": 140
+    },
+    {
+        "question": "What is a catalyst in chemistry?",
+        "context": "A catalyst is a substance that increases the rate of a chemical reaction without being consumed.",
+        "answer": "A catalyst speeds up a chemical reaction without being consumed.",
+        "page": 71
+    },
+    {
+        "question": "What is the role of chlorophyll in plants?",
+        "context": "Chlorophyll absorbs sunlight, enabling photosynthesis in plants.",
+        "answer": "Chlorophyll absorbs sunlight for photosynthesis in plants.",
+        "page": 47
+    },
+    {
+        "question": "What is the law of conservation of mass?",
+        "context": "The law of conservation of mass states that mass is neither created nor destroyed in a chemical reaction.",
+        "answer": "Mass is neither created nor destroyed in a chemical reaction, per the law of conservation of mass.",
+        "page": 80
+    },
+    {
+        "question": "What is the main function of the kidneys?",
+        "context": "The kidneys filter blood to remove waste and regulate fluid balance.",
+        "answer": "The kidneys filter blood to remove waste and regulate fluids.",
+        "page": 32
+    },
+    {
+        "question": "What is the significance of the Industrial Revolution?",
+        "context": "The Industrial Revolution transformed economies from agrarian to industrial through technological advancements.",
+        "answer": "The Industrial Revolution shifted economies to industrial through technology.",
+        "page": 125
+    },
+    {
+        "question": "What is a quadratic equation?",
+        "context": "A quadratic equation is a polynomial equation of the form ax² + bx + c = 0.",
+        "answer": "A quadratic equation is ax² + bx + c = 0.",
+        "page": 43
+    },
+    {
+        "question": "What is the purpose of the ozone layer?",
+        "context": "The ozone layer absorbs harmful ultraviolet radiation from the sun, protecting life on Earth.",
+        "answer": "The ozone layer absorbs UV radiation to protect life.",
+        "page": 65
+    },
+    {
+        "question": "What is the definition of velocity?",
+        "context": "Velocity is a vector quantity describing the rate of change of an object's position, including direction.",
+        "answer": "Velocity is the rate of change of position with direction.",
+        "page": 93
+    },
+    {
+        "question": "What is the author of '1984'?",
+        "context": "1984 is a dystopian novel by George Orwell, published in 1949.",
+        "answer": "George Orwell wrote '1984'.",
+        "page": 115
+    },
+    {
+        "question": "What is the process of cell division called?",
+        "context": "Cell division in eukaryotes is called mitosis, where one cell divides into two identical cells.",
+        "answer": "Cell division is called mitosis.",
+        "page": 25
+    },
+    {
+        "question": "What is the main component of Earth's atmosphere?",
+        "context": "Nitrogen makes up about 78% of Earth's atmosphere.",
+        "answer": "Nitrogen is the main component, about 78% of Earth's atmosphere.",
+        "page": 60
+    },
+    {
+        "question": "What is the definition of a limit in calculus?",
+        "context": "A limit in calculus is the value a function approaches as the input approaches a specified point.",
+        "answer": "A limit is the value a function approaches at a specified point.",
+        "page": 14
+    },
+    {
+        "question": "What is the significance of the Treaty of Westphalia?",
+        "context": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and established modern state sovereignty.",
+        "answer": "The Treaty of Westphalia ended the Thirty Years' War and defined state sovereignty in 1648.",
+        "page": 138
+    },
+    {
+        "question": "What is the primary function of ribosomes?",
+        "context": "Ribosomes synthesize proteins by translating mRNA into polypeptide chains.",
+        "answer": "Ribosomes synthesize proteins from mRNA.",
+        "page": 37
+    },
+    {
+        "question": "What is the law of supply?",
+        "context": "The law of supply states that as the price of a good increases, the quantity supplied increases, ceteris paribus.",
+        "answer": "The law of supply states that higher prices increase the quantity supplied.",
+        "page": 85
+    },
+    {
+        "question": "What are the characteristics of a mammal?",
+        "context": "Mammals are warm-blooded animals with hair or fur, mammary glands for milk production, and typically give live birth.",
+        "answer": "Mammals are warm-blooded, have hair or fur, and produce milk.",
+        "page": 44
+    },
+    {
+        "question": "What is the definition of an acid in chemistry?",
+        "context": "An acid is a substance that donates protons or accepts electron pairs in a chemical reaction.",
+        "answer": "An acid donates protons or accepts electron pairs in reactions.",
+        "page": 73
+    },
+    {
+        "question": "What causes the tides?",
+        "context": "Tides are caused by the gravitational pull of the moon and sun on Earth's oceans.",
+        "answer": "Tides are caused by the moon and sun's gravitational pull.",
+        "page": 69
+    },
+    {
+        "question": "What is the function of the endoplasmic reticulum?",
+        "context": "The endoplasmic reticulum synthesizes or modifies proteins and lipids for cellular use.",
+        "answer": "The endoplasmic reticulum synthesizes or modifies proteins and lipids.",
+        "page": 39
+    },
+    {
+        "question": "What is the main source of energy for Earth's climate system?",
+        "context": "The sun is the primary source of energy for Earth's climate system, driving weather patterns.",
+        "answer": "The sun drives Earth's climate system as its primary energy source.",
+        "page": 17
+    },
+    {
+        "question": "What is the significance of the Battle of Hastings?",
+        "context": "The Battle of Hastings in 1066 marked the Norman conquest of England by William the Conqueror.",
+        "answer": "The Battle of Hastings in 1066 led to the Norman conquest of England.",
+        "page": 132
+    },
+    {
+        "question": "What is the definition of a vector in mathematics?",
+        "context": "A vector is a mathematical object with both magnitude and direction, often represented as an ordered tuple.",
+        "answer": "A vector has magnitude and direction, represented as a tuple.",
+        "page": 48
+    },
+    {
+        "question": "What is the role of enzymes in biochemical reactions?",
+        "context": "Enzymes are proteins that act as catalysts to speed up biochemical reactions without being consumed.",
+        "answer": "Enzymes are protein catalysts that accelerate biochemical reactions.",
+        "page": 51
+    },
+    {
+        "question": "What is the definition of democracy?",
+        "context": "Democracy is a system of government where power is vested in the people, typically through elected representatives.",
+        "answer": "Democracy is a government system where people hold power via elected representatives.",
+        "page": 118
+    },
+    {
+        "question": "What is the function of the thyroid gland?",
+        "context": "The thyroid gland produces hormones that regulate metabolism, growth, and development.",
+        "answer": "The thyroid produces hormones for metabolism, growth, and development.",
+        "page": 27
+    },
+    {
+        "question": "What is the primary ethical obligation of an IT professional collecting sensitive customer data?",
+        "context": "An IT professional is working on a project that involves collecting and storing sensitive customer data, with options to keep vulnerabilities secret, report them, exploit them, or ignore them.",
+        "answer": "To protect customer data from unauthorized access and breaches.",
+        "page": 2
+    },
+    {
+        "question": "What should an IT professional do upon discovering a system vulnerability?",
+        "context": "An IT professional discovers a vulnerability that could be exploited by hackers, with options to prioritize project deadlines, protect data, prioritize company interests, or exploit data.",
+        "answer": "To report the vulnerability to management and work to fix it.",
+        "page": 2
+    },
+    {
+        "question": "What is the primary ethical obligation when developing an employee monitoring system?",
+        "context": "An IT professional is asked to develop a system to monitor employees' activities, with options to focus on deadlines, privacy, company interests, or personal monitoring.",
+        "answer": "To consider the impact on employees' privacy and autonomy.",
+        "page": 3
+    },
+    {
+        "question": "What is the ethical obligation when developing an AI system affecting people's lives?",
+        "context": "An IT professional develops an AI system for decision-making, with options to prioritize deadlines, societal impact, company interests, or company-benefiting decisions.",
+        "answer": "To consider the potential impact on society and individuals.",
+        "page": 3
+    },
+    {
+        "question": "What should an IT professional do upon discovering unauthorized data collection?",
+        "context": "An IT professional finds a system collecting personal data without consent, with options to keep it secret, report it, exploit it, or ignore it.",
+        "answer": "To report the discovery to management and work to fix it.",
+        "page": 4
+    },
+    {
+        "question": "What exclusive rights does a freelance writer have under copyright law?",
+        "context": "Samantha, a freelance writer, creates an original article, with options for reproduction, distribution, full rights, or no rights without registration.",
+        "answer": "To reproduce, distribute, display, and create derivative works.",
+        "page": 4
+    },
+    {
+        "question": "Under what circumstances can a student use a copyrighted image without permission?",
+        "context": "Alex, a college student, wants to use a copyrighted image in a research paper, with options for commercial use, educational use, transformation, or fair use.",
+        "answer": "If the use is considered fair use, based on purpose, nature, amount, and effect.",
+        "page": 5
+    },
+    {
+        "question": "What remedies can a company seek for copyright infringement of their software?",
+        "context": "TechCorp develops a program similar to SoftDev’s copyrighted program, with options for monetary damages, injunctive relief, both, or neither.",
+        "answer": "Both monetary damages and injunctive relief.",
+        "page": 5
+    },
+    {
+        "question": "What is the primary purpose of the novelty requirement in patent law?",
+        "context": "The novelty requirement in patent law has options to ensure utility, prevent prior art, ensure non-obviousness, or demand enablement.",
+        "answer": "To prevent prior art from being patented.",
+        "page": 6
+    },
+    {
+        "question": "Which invention lacks novelty?",
+        "context": "Examples include a new solar panel, a smartphone with a projector, a bicycle with an old design, or an AI medical device.",
+        "answer": "A bicycle with the same design as one already on the market.",
+        "page": 6
+    },
+    {
+        "question": "What is the primary purpose of the non-obviousness requirement in patent law?",
+        "context": "The non-obviousness requirement has options to ensure utility, prevent prior art, demand significant difference, or require enablement.",
+        "answer": "To require the invention be significantly different from existing technology.",
+        "page": 6
+    },
+    {
+        "question": "Which invention lacks non-obviousness?",
+        "context": "Examples include a smartphone combining features, a slightly modified bicycle, a medical device using existing tech, or a new solar panel.",
+        "answer": "A bicycle with a slightly modified frame design.",
+        "page": 7
+    },
+    {
+        "question": "What is the primary purpose of the utility requirement in patent law?",
+        "context": "The utility requirement has options to ensure novelty, prevent prior art, ensure functionality, or demand enablement.",
+        "answer": "To require that the invention be useful and functional.",
+        "page": 7
+    },
+    {
+        "question": "Which invention lacks utility?",
+        "context": "Examples include a medical device, a smartphone app, a decorative item, or a new solar panel.",
+        "answer": "A decorative item that serves no functional purpose.",
+        "page": 7
+    },
+    {
+        "question": "What is the primary purpose of the enablement requirement in patent law?",
+        "context": "The enablement requirement has options to ensure novelty, prevent prior art, provide detailed description, or ensure utility.",
+        "answer": "To require that the invention be described in sufficient detail.",
+        "page": 8
+    },
+    {
+        "question": "What should a software developer do upon discovering a critical bug?",
+        "context": "A developer finds a bug that could compromise user data, with options to ignore it, report it, release an untested patch, or inform users without a fix.",
+        "answer": "To report the bug to the manager and work on a fix.",
+        "page": 8
+    },
+    {
+        "question": "What should you do if a colleague is struggling with a project deadline?",
+        "context": "A colleague struggles to meet a deadline, with options to help, ignore, report, or take over the project.",
+        "answer": "To offer to help the colleague with their tasks.",
+        "page": 8
+    },
+    {
+        "question": "What should be disclosed about an AI-powered product to users?",
+        "context": "A company develops an AI product, with options to disclose benefits, risks and biases, source code, or personal data collected.",
+        "answer": "The potential risks and biases associated with the AI algorithms.",
+        "page": 9
+    },
+    {
+        "question": "what is react ?",
+        "context": "React is the library for creating views",
+        "answer": "React is the library for creating views",
+        "page" : 20
+    },
+    {
+        "question": "What is a variable?",
+        "context": "In programming, a variable is a named storage location in a computer's memory that holds a value, which can be a number, string, or other data type. Variables are fundamental to programming.",   
+        "answer": "A named storage location in a computer's memory that holds a value.",
+        "page": 21
+    },
+    {
+        "question": "What is machine learning?",
+        "context": "Machine learning is a subset of artificial intelligence that involves training algorithms to learn patterns from data.",
+        "answer": "A subset of AI that trains algorithms to learn from data.",
+        "page": 22
+    }
+    ,
+    {
+        "question": "What is a variable?",
+        "context": "In programming, a variable is a named storage location in a computer's memory that holds a value, which can be a number, string, or other data type. Variables are fundamental to programming.",
+        "answer": "A variable is a named storage location that holds a value."
+    },
+    {
+        "question": "What is machine learning?",
+        "context": "Machine learning is a subset of artificial intelligence that involves training algorithms to learn patterns from data.",
+        "answer": "Machine learning is a subset of AI that trains algorithms to learn from data."
+    },
+    {
+        "question": "What is the purpose of a database?",
+        "context": "A database is an organized collection of structured information or data, typically stored electronically in a computer system.",
+        "answer": "A database stores and organizes structured information or data."
+    },
+    {
+        "question": "What is the difference between a compiler and an interpreter?",
+        "context": "A compiler translates the entire source code of a program into machine code before execution, while an interpreter translates code line-by-line during execution.",
+        "answer": "A compiler translates all code at once, while an interpreter translates code line-by-line."
+    },
+    {
+        "question": "What is cloud computing?",
+        "context": "Cloud computing is the delivery of computing services over the internet, allowing users to access and store data remotely.",
+        "answer": "Cloud computing delivers computing services over the internet for remote access and storage."
+    }, 
+    {
+        "question": "What is the purpose of an operating system?",
+        "context": "An operating system is software that manages computer hardware and software resources, providing common services for computer programs.",
+        "answer": "An operating system manages hardware and software resources, providing common services for programs.",
+        "page": 10
+    },
+    {
+        "question": "What is the difference between HTTP and HTTPS?",
+        "context": "HTTP (Hypertext Transfer Protocol) is the protocol used for transmitting data over the web, while HTTPS (HTTP Secure) adds a layer of security by encrypting the data.",
+        "answer": "HTTP transmits data, while HTTPS encrypts it for security.",
+        "page": 11
+    },
+    {
+        "question": "What is the purpose of a firewall?",
+        "context": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+        "answer": "A firewall monitors and controls network traffic for security.",
+        "page": 13
+    },
+    {
+        "question": "What is the function of a router?",
+        "context": "A router is a device that forwards data packets between computer networks, directing traffic on the internet.",
+        "answer": "A router forwards data packets between networks, directing internet traffic.",
+        "page": 16
+    },
+    {
+        "question": "What is the purpose of version control in software development?",
+        "context": "Version control systems track changes to files over time, allowing multiple developers to collaborate on a project without conflicts.",
+        "answer": "Version control tracks file changes, enabling collaboration without conflicts.",
+        "page": 18
+    },
+    {
+        "question": "What is the difference between front-end and back-end development?",
+        "context": "Front-end development focuses on the user interface and user experience, while back-end development deals with server-side logic and database interactions.",
+        "answer": "Front-end is user interface-focused; back-end handles server-side logic and databases.",
+        "page": 24
+    }
+]
+
